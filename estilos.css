@@ -43,10 +43,7 @@ body {
     background-color: aqua;
 }
 
-.nav {
-    grid-area: nav;
-    background-color: black;
-}
+
 
 .main {
     grid-area: main;
@@ -100,7 +97,7 @@ ul {
 p {
     font-size: larger;
 }
-
+.d-block w-10 { justify-content: center;}
 
 .imagenManolos {
     display: flex;
