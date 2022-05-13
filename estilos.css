@@ -9,11 +9,11 @@ html {
 }
 
 
+
 head {
     text-align: center;
 }
-.d-block{justify-content: center;}
-@media(min-width: 320px)
+ul {min-width: 320;600 background-color: red;}
 
 body {
 
