@@ -12,8 +12,8 @@ html {
 head {
     text-align: center;
 }
-
-
+.d-block{justify-content: center;}
+@media(min-width: 320px)
 
 body {
 
@@ -56,17 +56,6 @@ body {
 }
 
 
-@media (min-width: 600px) {
-    .grid-container {
-        background-color: blue;
-    }
-}
-
-@media (min-width: 900px) {
-    .grid-container {
-        background-color: bisque;
-    }
-}
 
 
 nav {
