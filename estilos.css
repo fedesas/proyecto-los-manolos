@@ -13,6 +13,8 @@ head {
     text-align: center;
 }
 
+
+
 body {
 
     display: grid;
@@ -23,7 +25,7 @@ body {
 }
 
 .grid-container {
-    
+
     text-align: center;
     justify-content: center;
     ;
@@ -62,7 +64,12 @@ body {
         background-color: blue;
     }
 }
-@media (min-width: 900px){.grid-container{background-color: bisque;} }
+
+@media (min-width: 900px) {
+    .grid-container {
+        background-color: bisque;
+    }
+}
 
 
 nav {
