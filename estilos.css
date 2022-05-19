@@ -4,26 +4,28 @@
     padding: 0;
 }
 
-html {
-    height: 100%;
+.img {
+    min-width: 320px;
 }
 
+@media (max-width: 320) {
+    .navbar-nav{ background-color: aquamarine; flex-direction: column;}}
+    
 
 
-head {
-    text-align: center;
+
+ul {
+    
+    background-color: red;
 }
-ul {min-width: 320, 600; background-color: red;}
 
 body {
 
-    display: grid;
 
-    gap: 10px;
-    text-align: center;
     min-height: 100%;
 
 }
+.img {justify-items: center;}
 
 .grid-container {
 
@@ -42,6 +44,7 @@ body {
 .header {
     grid-area: header;
     background-color: aqua;
+    text-align: center;
 }
 
 
@@ -62,31 +65,22 @@ body {
 nav {
     background-color: pink;
     padding: 2px;
-
 }
 
-.imagenEventos {
-    justify-content: center;
-}
 
-.imagenManolos {
-    justify-content: center;
-}
-
-.imagenMasa {
-    justify-content: center;
-}
 
 ul {
     font-weight: 900;
     color: royalblue;
-    }
+}
 
 
 /* p {
     font-size: heig;
 } */
-.d-block w-10 { justify-content: center;}
+.d-block w-10 {
+    justify-content: center;
+}
 
 .imagenManolos {
     display: flex;
@@ -102,7 +96,10 @@ ul {
     display: flex;
     flex-direction: row-reverse;
 }
-ul.navbar-nav {min-width: 320px;}
+
+ul.navbar-nav {
+    min-width: 320px;
+}
 
 
 ul li {
