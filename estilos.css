@@ -4,25 +4,16 @@
     padding: 0;
 }
 
-.img {
-    min-width: 320px;
-}
-
-
-
 
 ul {
     
-    background-color: red;
+    background-color: rgb(236, 186, 218);
 }
 
 body {
-
-
-    min-height: 100%;
+background-color: salmon;
 
 }
-.img {justify-items: center;}
 
 .grid-container {
 
@@ -72,12 +63,7 @@ ul {
 }
 
 
-/* p {
-    font-size: heig;
-} */
-.d-block w-10 {
-    justify-content: center;
-}
+
 
 .imagenManolos {
     display: flex;
@@ -94,9 +80,7 @@ ul {
     flex-direction: row-reverse;
 }
 
-ul.navbar-nav {
-    min-width: 320px;
-}
+
 
 
 ul li {
