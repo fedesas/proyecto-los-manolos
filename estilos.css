@@ -62,14 +62,15 @@ ul {
     color: royalblue;
 }
 
+section {justify-content: center;}
 
-
-
+div.carousel-item { justify-items: center;}
 .imagenManolos {
     display: flex;
     flex-direction: row-reverse;
+    margin-block: auto;
 }
-
+.navbarNav { max-width: 80%;}
 .imagenEventos {
     display: flex;
     flex-direction: row-reverse;
