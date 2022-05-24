@@ -19,14 +19,14 @@ background-color: salmon;
 
     text-align: center;
     justify-content: center;
-    ;
+    
     display: grid;
     gap: 10px;
     grid-template-areas:
         "header"
         "nav"
         "main"
-        "footer";
+        "footer"
 }
 
 .header {
@@ -44,7 +44,7 @@ background-color: salmon;
 
 .footer {
     grid-area: footer;
-    background-color: brown
+    background-color: brown;
 }
 
 
@@ -97,6 +97,7 @@ tr {
 thead {
     text-align: center;
 }
+
 
 footer {
     background-color: rgb(241, 91, 196);
